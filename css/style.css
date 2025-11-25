@@ -1,0 +1,222 @@
+
+body::-webkit-scrollbar {
+  display: none;
+}
+body {
+  margin: 0;
+  padding: 0;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.4)),
+    url(../imgs/main.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100vh;
+  background-position: center center;
+  font-.archivo-black-regular {
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+  text-transform: capitalize;
+}
+
+.icon {
+  border-radius: 50%;
+}
+.navbar {
+  background-color: #0A0E26;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 70px;
+}
+
+.navlogo {
+  display: flex;
+  align-items: center;
+  color: white;
+  margin-left: 40px;
+  
+  
+}
+
+.navlogo h2{
+  font-family: "Archivo Black", sans-serif;
+  font-weight: 800;
+  font-style: normal;
+}
+
+.navlogo img {
+  width: 35px;
+  height: 35px;
+  border-radius: 50%;
+  border: 2px solid black;
+  margin-left: 5px;
+  margin-bottom: 6px;
+}
+
+.navlist {
+  display: flex;
+  align-items: center;
+}
+
+.navlist ul {
+  list-style: none;
+  display: flex;
+  align-items: center;
+  margin: 0;
+  padding: 0;
+  margin-right: 40px;
+}
+
+.navlist li {
+  margin-right: 15px;
+  color: white;
+}
+
+.navlist a {
+  color: white;
+  text-decoration: none;
+  font-size: 18px;
+  font-weight: 600;
+  transition: 0.5s;
+}
+
+.navlist a:hover {
+  color: rgb(0, 89, 255);
+  text-decoration: 2px underline rgb(0, 89, 255);
+}
+
+main {
+  text-align: center;
+  height: 100vh;
+}
+main h1 {
+  font-family: "Archivo Black", sans-serif;
+  font-size: 45px;
+  font-weight: 900;
+  text-transform: capitalize;
+  color: white;
+  margin-top: 18%;
+}
+main p {
+  text-transform: capitalize;
+  color: rgb(255, 255, 255);
+  font-size: larger;
+  font-weight: 500;
+}
+
+main button {
+  display: inline;
+  background: linear-gradient
+    (135deg, #1e293b, #3b82f6);
+    border: none;
+  color: white;
+  padding: 15px;
+  border-radius: 10px;
+  font-weight: 600;
+  font-size: 15px;
+  transition: all 1s;
+}
+main button:hover {
+  box-shadow: 0 0 15px #3b82f6;
+  transform: scale(1.1);
+
+}
+main button {
+  width: 230px;
+  background: linear-gradient(
+   135deg, #1e293b, #3b82f6
+  );
+}
+.p {
+  padding: 50px 0px;
+  text-align: center;
+  background-color: #0F132A;
+}
+.p h2 {
+  font-family: "Archivo Black", sans-serif;
+  color: white;
+  font-size: 35px;
+  font-weight: 900;
+}
+.p p {
+  
+color: RGBA(255, 255, 255, 0.5);
+}
+.cardsp {
+  display: flex;
+  width: 90%;
+  margin: auto;
+  justify-content: space-around;
+  margin-top: 25px;
+  column-gap: 25px;
+}
+.cardp {
+  width: 24%;
+  background-color: #181C33;
+  border-radius: 10px;
+  border: 1px solid rgba(255, 255, 255, 0.12);
+  padding: 10px;
+  box-shadow: 0 0 2 white;
+}
+.img{
+  display: flex;
+  align-items: center;
+}
+.img h5{
+  color: white;
+  font-weight: 600;
+}
+.cardp h3 {
+
+  color: white;
+}
+.cardp p {
+  margin-top: 7px;
+  text-align: left;
+  color: 
+RGBA(255, 255, 255, 0.5);
+}
+.p2 {
+  background-color: #0A0E26;
+  text-align: center;
+  padding: 50px 0px;
+}
+
+.pcards {
+  display: flex;
+  justify-content: space-around;
+}
+.card {
+  transition: all 0.5s ease;
+}
+.card:hover {
+  transform: scale(1.1);
+}
+.p2 h2 {
+  text-align: center;
+  color: white;
+  margin-bottom: 50px;
+  font-family: "Archivo Black", sans-serif;
+  font-size: 35px;
+  font-weight: 900;
+}
+
+
+
+.bt {
+  margin-top: 24px;
+}
+.see-btn{
+  border: 1px solid white;
+  color: white;
+  width: 200px;
+}
+.tn-outline-dark:hover{
+
+background-color: rgba(var(--bs-link-color-rgb), var(--bs-link-opacity, 1));
+
+}
+footer {
+  background-color: #0C1030;
+}
